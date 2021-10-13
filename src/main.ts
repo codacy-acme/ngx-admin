@@ -11,6 +11,7 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+  console.log('You are now in Prod Mode!');
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
